@@ -20,6 +20,34 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "85d0102a-f8c4-4db5-a915-a6e9183bf77a",
+            "source": {
+              "x": 130,
+              "y": 105
+            },
+            "target": {
+              "x": 230,
+              "y": 205
+            }
+          },
+          {
             "position": {
               "x": 110,
               "y": 10
@@ -379,48 +407,6 @@
               "storesInventory": false,
               "threats": []
             }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 4,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "2cc94dac-21df-468d-9a41-ab8afb7bceb2",
-            "source": {
-              "cell": "9d0ecd91-b7ff-4203-be1d-13aaae470887",
-              "port": "e96e62d6-b886-4957-8557-96da1caeac66"
-            },
-            "target": {
-              "cell": "73d0890c-1b20-45b5-9103-c9dc43c6fa20",
-              "port": "0a67c0db-6440-436e-abcc-b6d105d75a5c"
-            },
-            "vertices": [
-              {
-                "x": 110,
-                "y": 150
-              },
-              {
-                "x": 170,
-                "y": 130
-              },
-              {
-                "x": 190,
-                "y": 150
-              }
-            ]
           },
           {
             "shape": "flow",
