@@ -401,7 +401,7 @@
             "data": {
               "type": "tm.Store",
               "name": "wwwroot/uploads",
-              "description": "",
+              "description": "(Almacén de datos)\n",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -412,6 +412,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
