@@ -20,40 +20,6 @@
         "version": "2.6.2",
         "cells": [
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": -1,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "e711e837-1750-4a69-a1ac-f34c8945db1f",
-            "source": {
-              "x": 100,
-              "y": 100
-            },
-            "target": {
-              "x": 390,
-              "y": 100
-            },
-            "vertices": [
-              {
-                "x": 470,
-                "y": 100
-              }
-            ]
-          },
-          {
             "position": {
               "x": 110,
               "y": 10
@@ -412,13 +378,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -522,6 +481,64 @@
               {
                 "x": 160,
                 "y": 410
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 295,
+              "y": 15
+            },
+            "size": {
+              "width": 110,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "(Actor Externo)"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "dd7adc97-f938-46bc-a3de-94705085e60c",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Text",
+              "name": "(Actor Externo)",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 12,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "e711e837-1750-4a69-a1ac-f34c8945db1f",
+            "source": {
+              "x": 110,
+              "y": 100
+            },
+            "target": {
+              "x": 400,
+              "y": 100
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 100
               }
             ]
           }
