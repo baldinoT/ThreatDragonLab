@@ -259,7 +259,7 @@
           {
             "position": {
               "x": 130,
-              "y": 440
+              "y": 450
             },
             "size": {
               "width": 120,
@@ -460,7 +460,7 @@
             ],
             "id": "c8d6c4e0-72c2-42d3-b63f-376657d53d09",
             "source": {
-              "x": 190,
+              "x": 180,
               "y": 350
             },
             "target": {
@@ -471,8 +471,58 @@
               {
                 "x": 180,
                 "y": 380
+              },
+              {
+                "x": 230,
+                "y": 400
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "e7170af4-f305-446d-98cc-84c52fe12d2b",
+            "source": {
+              "x": 210,
+              "y": 70
+            },
+            "target": {
+              "cell": "73d0890c-1b20-45b5-9103-c9dc43c6fa20",
+              "port": "0a67c0db-6440-436e-abcc-b6d105d75a5c"
+            }
           }
         ]
       }
